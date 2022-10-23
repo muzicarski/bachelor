@@ -1,0 +1,9 @@
+[1] - https://www.mathworks.com/discovery/affine-transformation.html#:~:text=Affine%20transformation%20is%20a%20linear,with%20non%2Dideal%20camera%20angles.
+[2] - https://www.graphicsmill.com/docs/gm/affine-and-projective-transformations.htm (slika afine transformacije)
+[3] - https://learnopencv.com/handwritten-digits-classification-an-opencv-c-python-tutorial
+[4] - Rastislav Struharik, "Projektovanje složenih digitalnih sistema" - Sinteza kombinacionih i sekvencijalnih mreža
+[5] - Vuk Vranjković, "Projektovanje elektronskih uređaja na sistemskom nivou" - Zynq FPGA, Fakultet tehničkih nauka
+[6] - Vuk Vranjković, "Projektovanje elektronskih uređaja na sistemskom nivou" - ESL tok projektovanja, Fakultet tehničkih nauka
+[7] - Rastislav Struharik, "Projektovanje složenih digitalnih sistema" - Hijerarhijski i parametrizovani dizajn
+[8] - Pong P. Chu, „RTL Hardware Design using VHDL”, Wiley-Interscience, 2006.
+[9] - https://www.xilinx.com/content/dam/xilinx/imgs/block-diagrams/zynq-mp-core-dual.png
