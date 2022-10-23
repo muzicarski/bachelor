@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="top_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="axi_lite_master_vip_pkg" />
+            <top_module name="deskew_tests_pkg" />
+            <top_module name="glbl" />
+            <top_module name="std" />
+            <top_module name="top_tb" />
+            <top_module name="uvm_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="408.604 ns"></ZoomStartTime>
+      <ZoomEndTime time="866.280 ns"></ZoomEndTime>
+      <Cursor1Time time="790.000 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="174"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/top_tb/dsqw_0/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dsqw_0/rst_n" type="logic">
+      <obj_property name="ElementShortName">rst_n</obj_property>
+      <obj_property name="ObjectShortName">rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dsqw_0/axi_slave_0/axi_r_cs" type="array">
+      <obj_property name="ElementShortName">axi_r_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_r_cs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dsqw_0/axi_slave_0/axi_r_ns" type="array">
+      <obj_property name="ElementShortName">axi_r_ns[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_r_ns[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dsqw_0/axi_slave_0/axi_w_cs" type="array">
+      <obj_property name="ElementShortName">axi_w_cs[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_w_cs[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/top_tb/dsqw_0/axi_slave_0/axi_w_ns" type="array">
+      <obj_property name="ElementShortName">axi_w_ns[1:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_w_ns[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group413" type="group">
+      <obj_property name="label">reg_axi_read</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_raddr" type="array">
+         <obj_property name="ElementShortName">axis_raddr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_raddr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_raddr_valid" type="logic">
+         <obj_property name="ElementShortName">axis_raddr_valid</obj_property>
+         <obj_property name="ObjectShortName">axis_raddr_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_raddr_ready" type="logic">
+         <obj_property name="ElementShortName">axis_raddr_ready</obj_property>
+         <obj_property name="ObjectShortName">axis_raddr_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/read_reg_w" type="logic">
+         <obj_property name="ElementShortName">read_reg_w</obj_property>
+         <obj_property name="ObjectShortName">read_reg_w</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/reg_raddr_w" type="array">
+         <obj_property name="ElementShortName">reg_raddr_w[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_raddr_w[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/reg_rdata_w" type="array">
+         <obj_property name="ElementShortName">reg_rdata_w[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_rdata_w[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_rdata" type="array">
+         <obj_property name="ElementShortName">axis_rdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_rdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_rdata_valid" type="logic">
+         <obj_property name="ElementShortName">axis_rdata_valid</obj_property>
+         <obj_property name="ObjectShortName">axis_rdata_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_rdata_ready" type="logic">
+         <obj_property name="ElementShortName">axis_rdata_ready</obj_property>
+         <obj_property name="ObjectShortName">axis_rdata_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_rresp" type="array">
+         <obj_property name="ElementShortName">axis_rresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_rresp[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group414" type="group">
+      <obj_property name="label">waddr</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_waddr" type="array">
+         <obj_property name="ElementShortName">axis_waddr[7:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_waddr[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_waddr_valid" type="logic">
+         <obj_property name="ElementShortName">axis_waddr_valid</obj_property>
+         <obj_property name="ObjectShortName">axis_waddr_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_waddr_ready" type="logic">
+         <obj_property name="ElementShortName">axis_waddr_ready</obj_property>
+         <obj_property name="ObjectShortName">axis_waddr_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/reg_waddr_w" type="array">
+         <obj_property name="ElementShortName">reg_waddr_w[7:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_waddr_w[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/write_reg_w" type="logic">
+         <obj_property name="ElementShortName">write_reg_w</obj_property>
+         <obj_property name="ObjectShortName">write_reg_w</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/reg_wdata_w" type="array">
+         <obj_property name="ElementShortName">reg_wdata_w[31:0]</obj_property>
+         <obj_property name="ObjectShortName">reg_wdata_w[31:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group415" type="group">
+      <obj_property name="label">write_data_resp</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_wdata_valid" type="logic">
+         <obj_property name="ElementShortName">axis_wdata_valid</obj_property>
+         <obj_property name="ObjectShortName">axis_wdata_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_wdata_ready" type="logic">
+         <obj_property name="ElementShortName">axis_wdata_ready</obj_property>
+         <obj_property name="ObjectShortName">axis_wdata_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_wdata" type="array">
+         <obj_property name="ElementShortName">axis_wdata[31:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_wdata[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_bresp_ready" type="logic">
+         <obj_property name="ElementShortName">axis_bresp_ready</obj_property>
+         <obj_property name="ObjectShortName">axis_bresp_ready</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_bresp_valid" type="logic">
+         <obj_property name="ElementShortName">axis_bresp_valid</obj_property>
+         <obj_property name="ObjectShortName">axis_bresp_valid</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/axis_bresp" type="array">
+         <obj_property name="ElementShortName">axis_bresp[1:0]</obj_property>
+         <obj_property name="ObjectShortName">axis_bresp[1:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group416" type="group">
+      <obj_property name="label">reg2ctrl</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/top_tb/dsqw_0/img_w_l" type="array">
+         <obj_property name="ElementShortName">img_w_l[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_w_l[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/start_addr_in" type="array">
+         <obj_property name="ElementShortName">start_addr_in[16:0]</obj_property>
+         <obj_property name="ObjectShortName">start_addr_in[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/start_addr_out" type="array">
+         <obj_property name="ElementShortName">start_addr_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">start_addr_out[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/start_deskew" type="logic">
+         <obj_property name="ElementShortName">start_deskew</obj_property>
+         <obj_property name="ObjectShortName">start_deskew</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/soft_rst" type="logic">
+         <obj_property name="ElementShortName">soft_rst</obj_property>
+         <obj_property name="ObjectShortName">soft_rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/mem_acc_err_ack" type="logic">
+         <obj_property name="ElementShortName">mem_acc_err_ack</obj_property>
+         <obj_property name="ObjectShortName">mem_acc_err_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/err_size_ack" type="logic">
+         <obj_property name="ElementShortName">err_size_ack</obj_property>
+         <obj_property name="ObjectShortName">err_size_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/done_ack" type="logic">
+         <obj_property name="ElementShortName">done_ack</obj_property>
+         <obj_property name="ObjectShortName">done_ack</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/mem_acc_err" type="logic">
+         <obj_property name="ElementShortName">mem_acc_err</obj_property>
+         <obj_property name="ObjectShortName">mem_acc_err</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/err_size" type="logic">
+         <obj_property name="ElementShortName">err_size</obj_property>
+         <obj_property name="ObjectShortName">err_size</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/done" type="logic">
+         <obj_property name="ElementShortName">done</obj_property>
+         <obj_property name="ObjectShortName">done</obj_property>
+      </wvobject>
+      <wvobject fp_name="/top_tb/dsqw_0/idle" type="logic">
+         <obj_property name="ElementShortName">idle</obj_property>
+         <obj_property name="ObjectShortName">idle</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

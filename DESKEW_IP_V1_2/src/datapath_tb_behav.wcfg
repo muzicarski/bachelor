@@ -1,0 +1,750 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="datapath_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="datapath_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="4,765.000001 us"></ZoomEndTime>
+      <Cursor1Time time="1,148.571973 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="238"></NameColumnWidth>
+      <ValueColumnWidth column_width="103"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="98571973" label="" />
+   </wave_markers>
+   <wvobject fp_name="/datapath_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="group509" type="group">
+      <obj_property name="label">fsm_states</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/deskew_fsm_i/dskw_cs" type="array">
+         <obj_property name="ElementShortName">dskw_cs[5:0]</obj_property>
+         <obj_property name="ObjectShortName">dskw_cs[5:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/deskew_fsm_i/dskw_ns" type="array">
+         <obj_property name="ElementShortName">dskw_ns[5:0]</obj_property>
+         <obj_property name="ObjectShortName">dskw_ns[5:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group315" type="group">
+      <obj_property name="label">x-x_mc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_x_xmc/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_x_xmc/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_x_xmc/CE_0" type="logic">
+         <obj_property name="ElementShortName">CE_0</obj_property>
+         <obj_property name="ObjectShortName">CE_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_x_xmc/CLK_0" type="logic">
+         <obj_property name="ElementShortName">CLK_0</obj_property>
+         <obj_property name="ObjectShortName">CLK_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_x_xmc/S_0" type="array">
+         <obj_property name="ElementShortName">S_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">S_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider169">
+   </wvobject>
+   <wvobject fp_name="group314" type="group">
+      <obj_property name="label">y-y_mc</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_y_ymc/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_y_ymc/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_y_ymc/CE_0" type="logic">
+         <obj_property name="ElementShortName">CE_0</obj_property>
+         <obj_property name="ObjectShortName">CE_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_y_ymc/CLK_0" type="logic">
+         <obj_property name="ElementShortName">CLK_0</obj_property>
+         <obj_property name="ObjectShortName">CLK_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/subtract_y_ymc/S_0" type="array">
+         <obj_property name="ElementShortName">S_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">S_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider170">
+   </wvobject>
+   <wvobject fp_name="group313" type="group">
+      <obj_property name="label">mult_mu11</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mult_i/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mult_i/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mult_i/CLK_0" type="logic">
+         <obj_property name="ElementShortName">CLK_0</obj_property>
+         <obj_property name="ObjectShortName">CLK_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mult_i/P_0" type="array">
+         <obj_property name="ElementShortName">P_0[25:0]</obj_property>
+         <obj_property name="ObjectShortName">P_0[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">6</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider175">
+   </wvobject>
+   <wvobject fp_name="group312" type="group">
+      <obj_property name="label">mult_mu02</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mult_i/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mult_i/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[12:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mult_i/CLK_0" type="logic">
+         <obj_property name="ElementShortName">CLK_0</obj_property>
+         <obj_property name="ObjectShortName">CLK_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mult_i/P_0" type="array">
+         <obj_property name="ElementShortName">P_0[25:0]</obj_property>
+         <obj_property name="ObjectShortName">P_0[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">6</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/x_mc_r" type="array">
+         <obj_property name="ElementShortName">x_mc_r[12:0]</obj_property>
+         <obj_property name="ObjectShortName">x_mc_r[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/y_mc_r" type="array">
+         <obj_property name="ElementShortName">y_mc_r[12:0]</obj_property>
+         <obj_property name="ObjectShortName">y_mc_r[12:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">3</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider615">
+      <obj_property name="label">MUs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject fp_name="group619" type="group">
+      <obj_property name="label">mu11</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mac_i/dataa" type="array">
+         <obj_property name="ElementShortName">dataa[25:0]</obj_property>
+         <obj_property name="ObjectShortName">dataa[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mac_i/datab" type="array">
+         <obj_property name="ElementShortName">datab[25:0]</obj_property>
+         <obj_property name="ObjectShortName">datab[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">6</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu11_mac_i/mac_out" type="array">
+         <obj_property name="ElementShortName">mac_out[51:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_out[51:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mac_i/mac_out" type="array">
+         <obj_property name="ElementShortName">mac_out[51:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_out[51:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group623" type="group">
+      <obj_property name="label">mu02</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mac_i/dataa" type="array">
+         <obj_property name="ElementShortName">dataa[25:0]</obj_property>
+         <obj_property name="ObjectShortName">dataa[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mac_i/datab" type="array">
+         <obj_property name="ElementShortName">datab[25:0]</obj_property>
+         <obj_property name="ObjectShortName">datab[25:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mac_i/mac_out" type="array">
+         <obj_property name="ElementShortName">mac_out[51:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_out[51:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_mac_i/mac_out" type="array">
+         <obj_property name="ElementShortName">mac_out[51:0]</obj_property>
+         <obj_property name="ObjectShortName">mac_out[51:0]</obj_property>
+         <obj_property name="Radix">HEXRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">12</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/skew_divider_i/M_AXIS_DOUT_0_tdata" type="array">
+         <obj_property name="ElementShortName">M_AXIS_DOUT_0_tdata[47:0]</obj_property>
+         <obj_property name="ObjectShortName">M_AXIS_DOUT_0_tdata[47:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">33</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/skew_divider_i/aclken_0" type="logic">
+         <obj_property name="ElementShortName">aclken_0</obj_property>
+         <obj_property name="ObjectShortName">aclken_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/skew_divider_i/S_AXIS_DIVISOR_0_tdata" type="array">
+         <obj_property name="ElementShortName">S_AXIS_DIVISOR_0_tdata[39:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_DIVISOR_0_tdata[39:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/skew_divider_i/S_AXIS_DIVIDEND_0_tdata" type="array">
+         <obj_property name="ElementShortName">S_AXIS_DIVIDEND_0_tdata[39:0]</obj_property>
+         <obj_property name="ObjectShortName">S_AXIS_DIVIDEND_0_tdata[39:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mu02_r" type="array">
+         <obj_property name="ElementShortName">mu02_r[33:0]</obj_property>
+         <obj_property name="ObjectShortName">mu02_r[33:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/u_dut/mu02_r" type="array">
+      <obj_property name="ElementShortName">mu02_r[33:0]</obj_property>
+      <obj_property name="ObjectShortName">mu02_r[33:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/u_dut/mu11_r" type="array">
+      <obj_property name="ElementShortName">mu11_r[33:0]</obj_property>
+      <obj_property name="ObjectShortName">mu11_r[33:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="group471" type="group">
+      <obj_property name="label">BRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_addr" type="array">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_clk" type="logic">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_clk</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_din" type="array">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_din[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_din[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_dout" type="array">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_dout[7:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_dout[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_en" type="logic">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_en</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_bram/BRAM_PORTA_0_we" type="array">
+         <obj_property name="ElementShortName">BRAM_PORTA_0_we[0:0]</obj_property>
+         <obj_property name="ObjectShortName">BRAM_PORTA_0_we[0:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group479" type="group">
+      <obj_property name="label">addr_gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/sclr" type="logic">
+         <obj_property name="ElementShortName">sclr</obj_property>
+         <obj_property name="ObjectShortName">sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_offset" type="array">
+         <obj_property name="ElementShortName">addr_offset[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_offset[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_out" type="array">
+         <obj_property name="ElementShortName">addr_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt" type="array">
+         <obj_property name="ElementShortName">x_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt" type="array">
+         <obj_property name="ElementShortName">y_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group488" type="group">
+      <obj_property name="label">xp_gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/sclr" type="logic">
+         <obj_property name="ElementShortName">sclr</obj_property>
+         <obj_property name="ObjectShortName">sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/incr_in" type="array">
+         <obj_property name="ElementShortName">incr_in[23:0]</obj_property>
+         <obj_property name="ObjectShortName">incr_in[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/acc_offset" type="array">
+         <obj_property name="ElementShortName">acc_offset[23:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_offset[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/xp_out" type="array">
+         <obj_property name="ElementShortName">xp_out[23:0]</obj_property>
+         <obj_property name="ObjectShortName">xp_out[23:0]</obj_property>
+         <obj_property name="Radix">REALRADIX</obj_property>
+         <obj_property name="radix_realType">SIGNEDFIXEDPOINTRADIX</obj_property>
+         <obj_property name="radix_fractionWidth">9</obj_property>
+         <obj_property name="radix_otherWidth">0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/x_cnt_xp" type="array">
+         <obj_property name="ElementShortName">x_cnt_xp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_xp[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/y_cnt_xp" type="array">
+         <obj_property name="ElementShortName">y_cnt_xp[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_xp[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group216" type="group">
+      <obj_property name="label">xp_x1_X_p2_p1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/mult_p_i/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[8:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mult_p_i/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[8:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mult_p_i/CE_0" type="logic">
+         <obj_property name="ElementShortName">CE_0</obj_property>
+         <obj_property name="ObjectShortName">CE_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/mult_p_i/P_0" type="array">
+         <obj_property name="ElementShortName">P_0[17:0]</obj_property>
+         <obj_property name="ObjectShortName">P_0[17:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group209" type="group">
+      <obj_property name="label">out_pixel</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/p_r" type="array">
+         <obj_property name="ElementShortName">p_r[7:0]</obj_property>
+         <obj_property name="ObjectShortName">p_r[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_val_sel" type="logic">
+         <obj_property name="ElementShortName">p_val_sel</obj_property>
+         <obj_property name="ObjectShortName">p_val_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p1_r_padded" type="array">
+         <obj_property name="ElementShortName">p1_r_padded[17:0]</obj_property>
+         <obj_property name="ObjectShortName">p1_r_padded[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_mult_out" type="array">
+         <obj_property name="ElementShortName">p_mult_out[17:0]</obj_property>
+         <obj_property name="ObjectShortName">p_mult_out[17:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p" type="array">
+         <obj_property name="ElementShortName">p[7:0]</obj_property>
+         <obj_property name="ObjectShortName">p[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_new" type="array">
+         <obj_property name="ElementShortName">p_new[17:0]</obj_property>
+         <obj_property name="ObjectShortName">p_new[17:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group499" type="group">
+      <obj_property name="label">Datapath_Top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/start_calc_moments" type="logic">
+         <obj_property name="ElementShortName">start_calc_moments</obj_property>
+         <obj_property name="ObjectShortName">start_calc_moments</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/rdata" type="array">
+         <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+         <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/in_img_start_addr" type="array">
+         <obj_property name="ElementShortName">in_img_start_addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">in_img_start_addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/out_img_start_addr" type="array">
+         <obj_property name="ElementShortName">out_img_start_addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">out_img_start_addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/wdata" type="array">
+         <obj_property name="ElementShortName">wdata[7:0]</obj_property>
+         <obj_property name="ObjectShortName">wdata[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr" type="array">
+         <obj_property name="ElementShortName">addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/enb" type="logic">
+         <obj_property name="ElementShortName">enb</obj_property>
+         <obj_property name="ObjectShortName">enb</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/web" type="logic">
+         <obj_property name="ElementShortName">web</obj_property>
+         <obj_property name="ObjectShortName">web</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/calc_moments_done" type="logic">
+         <obj_property name="ElementShortName">calc_moments_done</obj_property>
+         <obj_property name="ObjectShortName">calc_moments_done</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group522" type="group">
+      <obj_property name="label">addr_routing</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/p_rd_addr_sel" type="logic">
+         <obj_property name="ElementShortName">p_rd_addr_sel</obj_property>
+         <obj_property name="ObjectShortName">p_rd_addr_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p2_addr_r" type="array">
+         <obj_property name="ElementShortName">p2_addr_r[16:0]</obj_property>
+         <obj_property name="ObjectShortName">p2_addr_r[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p1_addr_r" type="array">
+         <obj_property name="ElementShortName">p1_addr_r[16:0]</obj_property>
+         <obj_property name="ObjectShortName">p1_addr_r[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/bram_addr_sel" type="logic">
+         <obj_property name="ElementShortName">bram_addr_sel</obj_property>
+         <obj_property name="ObjectShortName">bram_addr_sel</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_rd_addr" type="array">
+         <obj_property name="ElementShortName">p_rd_addr[16:0]</obj_property>
+         <obj_property name="ObjectShortName">p_rd_addr[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_in" type="array">
+         <obj_property name="ElementShortName">addr_in[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_in[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_mux_out" type="array">
+         <obj_property name="ElementShortName">addr_mux_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_mux_out[16:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="/datapath_tb/u_dut/deskew_fsm_i/xp_r" type="array">
+      <obj_property name="ElementShortName">xp_r[23:0]</obj_property>
+      <obj_property name="ObjectShortName">xp_r[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="group528" type="group">
+      <obj_property name="label">M02_Multiplier</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/m02_mult_i/A_0" type="array">
+         <obj_property name="ElementShortName">A_0[23:0]</obj_property>
+         <obj_property name="ObjectShortName">A_0[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/m02_mult_i/B_0" type="array">
+         <obj_property name="ElementShortName">B_0[8:0]</obj_property>
+         <obj_property name="ObjectShortName">B_0[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/m02_mult_i/CE_0" type="logic">
+         <obj_property name="ElementShortName">CE_0</obj_property>
+         <obj_property name="ObjectShortName">CE_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/m02_mult_i/CLK_0" type="logic">
+         <obj_property name="ElementShortName">CLK_0</obj_property>
+         <obj_property name="ObjectShortName">CLK_0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/m02_mult_i/P_0" type="array">
+         <obj_property name="ElementShortName">P_0[32:0]</obj_property>
+         <obj_property name="ObjectShortName">P_0[32:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group521" type="group">
+      <obj_property name="label">xp_gen</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/deskew_fsm_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/incr_in" type="array">
+         <obj_property name="ElementShortName">incr_in[23:0]</obj_property>
+         <obj_property name="ObjectShortName">incr_in[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/acc_offset" type="array">
+         <obj_property name="ElementShortName">acc_offset[23:0]</obj_property>
+         <obj_property name="ObjectShortName">acc_offset[23:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/y_cnt_sclr" type="logic">
+         <obj_property name="ElementShortName">y_cnt_sclr</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/x_cnt_en" type="logic">
+         <obj_property name="ElementShortName">x_cnt_en</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/y_cmp_out" type="logic">
+         <obj_property name="ElementShortName">y_cmp_out</obj_property>
+         <obj_property name="ObjectShortName">y_cmp_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/x_cnt_out" type="array">
+         <obj_property name="ElementShortName">x_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/xp_gen_i/y_cnt_out" type="array">
+         <obj_property name="ElementShortName">y_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group233" type="group">
+      <obj_property name="label">PFIFO</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/sclr" type="logic">
+         <obj_property name="ElementShortName">sclr</obj_property>
+         <obj_property name="ObjectShortName">sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/rd_en" type="logic">
+         <obj_property name="ElementShortName">rd_en</obj_property>
+         <obj_property name="ObjectShortName">rd_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/wr_en" type="logic">
+         <obj_property name="ElementShortName">wr_en</obj_property>
+         <obj_property name="ObjectShortName">wr_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/data_in" type="array">
+         <obj_property name="ElementShortName">data_in[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_in[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/full" type="logic">
+         <obj_property name="ElementShortName">full</obj_property>
+         <obj_property name="ObjectShortName">full</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/empty" type="logic">
+         <obj_property name="ElementShortName">empty</obj_property>
+         <obj_property name="ObjectShortName">empty</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/p_fifo/data_out" type="array">
+         <obj_property name="ElementShortName">data_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">data_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/sclr" type="logic">
+         <obj_property name="ElementShortName">sclr</obj_property>
+         <obj_property name="ObjectShortName">sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_offset" type="array">
+         <obj_property name="ElementShortName">addr_offset[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_offset[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_out" type="array">
+         <obj_property name="ElementShortName">addr_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt" type="array">
+         <obj_property name="ElementShortName">x_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt" type="array">
+         <obj_property name="ElementShortName">y_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt_sclr" type="logic">
+         <obj_property name="ElementShortName">y_cnt_sclr</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt_en" type="logic">
+         <obj_property name="ElementShortName">x_cnt_en</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cmp_out" type="logic">
+         <obj_property name="ElementShortName">y_cmp_out</obj_property>
+         <obj_property name="ObjectShortName">y_cmp_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt_out" type="array">
+         <obj_property name="ElementShortName">x_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt_out" type="array">
+         <obj_property name="ElementShortName">y_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/rst_n" type="logic">
+         <obj_property name="ElementShortName">rst_n</obj_property>
+         <obj_property name="ObjectShortName">rst_n</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/en" type="logic">
+         <obj_property name="ElementShortName">en</obj_property>
+         <obj_property name="ObjectShortName">en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/sclr" type="logic">
+         <obj_property name="ElementShortName">sclr</obj_property>
+         <obj_property name="ObjectShortName">sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/img_dim" type="array">
+         <obj_property name="ElementShortName">img_dim[8:0]</obj_property>
+         <obj_property name="ObjectShortName">img_dim[8:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_offset" type="array">
+         <obj_property name="ElementShortName">addr_offset[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_offset[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/addr_out" type="array">
+         <obj_property name="ElementShortName">addr_out[16:0]</obj_property>
+         <obj_property name="ObjectShortName">addr_out[16:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt" type="array">
+         <obj_property name="ElementShortName">x_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt" type="array">
+         <obj_property name="ElementShortName">y_cnt[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt_sclr" type="logic">
+         <obj_property name="ElementShortName">y_cnt_sclr</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_sclr</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt_en" type="logic">
+         <obj_property name="ElementShortName">x_cnt_en</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_en</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cmp_out" type="logic">
+         <obj_property name="ElementShortName">y_cmp_out</obj_property>
+         <obj_property name="ObjectShortName">y_cmp_out</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/x_cnt_out" type="array">
+         <obj_property name="ElementShortName">x_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">x_cnt_out[7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/datapath_tb/u_dut/addr_gen_i/y_cnt_out" type="array">
+         <obj_property name="ElementShortName">y_cnt_out[7:0]</obj_property>
+         <obj_property name="ObjectShortName">y_cnt_out[7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
